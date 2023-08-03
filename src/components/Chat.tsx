@@ -16,11 +16,11 @@ const Chat: FC = () => {
     <Accordion
       type='single'
       collapsible
-      className='relative bg-white z-40 shadow'>
+      className='relative bg-black z-40 shadow'>
       <AccordionItem value='item-1'>
-        <div className='fixed right-8 w-80 bottom-8 bg-white border border-gray-200 rounded-md overflow-hidden'>
+        <div className='fixed right-8 w-80 bottom-8 bg-slate-700 border border-gray-800 rounded-md overflow-hidden'>
           <div className='w-full h-full flex flex-col'>
-            <AccordionTrigger className='px-6 border-b border-zinc-300'>
+            <AccordionTrigger className='px-6 border-b border-slate 400'>
               <ChatHeader />
             </AccordionTrigger>
             <AccordionContent>
