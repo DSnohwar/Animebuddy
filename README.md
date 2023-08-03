@@ -1,4 +1,4 @@
-# Bookbuddy chat - a full-stack customer support chatbot
+# Animebuddy chat - a full-stack customer support chatbot
 
 ## Features
 

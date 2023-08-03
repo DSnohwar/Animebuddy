@@ -2,6 +2,7 @@ import Chat from '@/components/Chat'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Providers from '@/components/Providers'
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,6 +34,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Chat />
           {children}
+          <Analytics />
         </body>
       </Providers>
     </html>
