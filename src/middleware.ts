@@ -13,6 +13,7 @@ export async function middleware(req: NextRequest) {
     if (!success) return new NextResponse('You are writing messages too fast.')
     return NextResponse.next()
   } catch (error) {
+    console.error(error);
     return new NextResponse(
       'Sorry, something went wrong processing your message. Please try again later.'
     )
